@@ -95,7 +95,21 @@ nav {
   /* transition: all 0.5s ease; */
   font-size: large;
 }
-
+.links button {
+  background-color: #000;
+  /* padding: 3px; */
+  border-radius: 6%;
+  border: none;
+  width: 78px;
+  
+}
+.links button a{
+  color: #fff;
+  text-decoration: none;
+}
+.links button:hover{
+  background-color: salmon;
+}
 #menu-icon {
   font-size: 25px;
   cursor: pointer;
@@ -223,6 +237,19 @@ nav {
   letter-spacing: 1px;
   /* font-weight: bold; */
 }
+.box-about button {
+  background-color: #000;
+  padding: 5px;
+  border-radius: 6%;
+  border: none;
+}
+.box-about button a{
+  color: #fff;
+  text-decoration: none;
+}
+.box-about button:hover{
+  background-color: #F87474;
+}
 .box-about h4{
   padding:0 20px;
   margin-top: 10px;
@@ -264,7 +291,7 @@ nav {
 
 }
 .contant-skill h3{
-  font-size: 3rem;
+  font-size: 4rem;
   text-decoration: underline;
   padding: 20px;
   color: #fff;
@@ -302,15 +329,15 @@ nav {
   width: 80%;
 }
 .con-pro{
-  background-color: #FFB562;
+  /* background-color: #FFB562; */
   width: 300px;
   text-align: center;
   margin: 0 auto;
-  border: 1px  solid black;
+  /* border: 1px  solid black; */
 }
 
 .con-pro h3{
-  font-size: 3rem;
+  font-size: 4rem;
   text-decoration: underline;
   padding: 20px;
   color: #000000;
@@ -330,7 +357,12 @@ nav {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
+  
 }
+.card:hover{
+  border: 3px solid #F87474;
+}
+
 .card-header img {
   width: 100%;
   height: 200px;
@@ -395,4 +427,74 @@ nav {
 }
 .card-body button:hover{
   background-color: #F87474;
+}
+
+/* experience */
+.experience{
+  background-color: rgb(90, 127, 246);
+  padding: 10% 0;
+}
+.box-ex{
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.exp{
+  
+  width: 80%;
+ margin: 0 auto;
+}
+.search{
+  width: 400px;
+  display: flex;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+.list-exp{
+  width: 80%;
+  background-color: #fcfdff;
+  padding: 30px;
+  border: 1px solid black;
+  margin: 5% auto;
+}
+.list-exp li{
+  margin: 5% 0;
+}
+
+
+/* contact */
+.contact{
+  padding: 10% 0;
+}
+
+.con-name{
+  font-size: 4rem;
+  text-decoration: underline;
+  text-align: center;
+}
+.infomation{
+  width: 500px;
+  background-color: #FFBF00;
+  padding: 30px;
+  margin: 10% auto;
+  border-radius: 4%;
+}
+.infomation li {
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+}
+.infomation li i{
+  margin-right: 20px;
+}
+.infomation li a{
+  color: #000;
+  font-size: 2rem;
+  margin: 0 auto;
 }
