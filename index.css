@@ -12,7 +12,7 @@
 body {
 background-color: aliceblue;
   min-width: 10vh;
-  height: 500vh;
+  /* height: 500vh; */
 }
 
 nav {
