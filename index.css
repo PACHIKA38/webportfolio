@@ -279,7 +279,7 @@ nav {
 .box-skills{
   /* background-color: blue; */
   margin: 20px auto;
-  width: 70%;
+  width: 60%;
   border: 1px solid black;
   
 }
@@ -303,6 +303,9 @@ nav {
   flex-wrap: wrap;
   margin: 20px;
   align-items: center;
+}
+.icon-skills div{
+  margin:  auto;
 }
 .icon-skills img{
  width: 70px;
