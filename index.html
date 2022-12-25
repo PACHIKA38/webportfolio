@@ -46,12 +46,12 @@
         <a
           href="https://www.linkedin.com/in/pachika-srilawan-37b3ba249/"
           target="_blank"
-          ><i class="fa-brands fa-linkedin" ></i
+          ><i class="fa-brands fa-linkedin"></i
         ></a>
         <a href="https://github.com/PACHIKA38 " target="_blank"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <div class="bx bx-menu" id="menu-icon" ></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </nav>
 
@@ -72,12 +72,20 @@
           <h3>ABOUT ME</h3>
           <div class="box-about">
             <p>
-              I joined the Generation Thailand Bootcamp with no experience in
-              coding skills and learned HTML5, CSS, JavaScript, React, MongoDB,
-              and behavioral skills. Also, collaborate closely with the team
-              during the Bootcamp project. Now, I'm looking for a job that will
-              use my skills and significantly contribute to the company's work.
-            <br/><button><a href="https://docs.google.com/document/d/1RrKFgh9iM97-11tRmPGIzDd1vwKVMbN83tgabBrgbIM/edit?usp=sharing" target="_blank">resume</a></button>
+              Continuous self-improvement, an insatiable thirst for knowledge,
+              and a willingness to listen to others' viewpoints are my core
+              strengths. I am able to handle my workload efficiently and pay
+              attention to detail. As a graduate of the Junior Software
+              Developer Generation Thailand Bootcamp, I am eager to acquire new
+              skills. I hope to use my knowledge and experience to contribute to
+              the growth and success of the company.
+              <br /><button>
+                <a
+                  href="https://drive.google.com/file/d/1LbfrWWMJKTvPYKYMcGbPsBFgkOkAfaps/view?usp=sharing"
+                  target="_blank"
+                  >resume</a
+                >
+              </button>
             </p>
             <h4>EDUCATION</h4>
             <ul class="educa">
@@ -303,15 +311,22 @@
       var btn = document.getElementById("btn");
       btn.addEventListener("click", function (e) {
         e.preventDefault();
-        console.log()
-        var name = document.getElementById('name').value;
-        var email = document.getElementById('email').value;
-        var subject = document.getElementById('subject').value;
-        var message = document.getElementById('message').value;
-        var body = 'name' +name+'<br/> email: '+email+'<br/> subject: '+ subject+'<br/> message: '+message
-        
-        console.log(name+email+subject+message+body)
+        console.log();
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var subject = document.getElementById("subject").value;
+        var message = document.getElementById("message").value;
+        var body =
+          "name" +
+          name +
+          "<br/> email: " +
+          email +
+          "<br/> subject: " +
+          subject +
+          "<br/> message: " +
+          message;
 
+        console.log(name + email + subject + message + body);
 
         Email.send({
           Host: "smtp.elasticemail.com",
