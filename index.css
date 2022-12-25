@@ -403,6 +403,9 @@ nav {
 .tag-green {
   background-color: #00C1D4;
 }
+.tag-greenold {
+  background-color: #039e7a;
+}
 
 .card-body p {
   font-size: 13px;
